@@ -1,5 +1,4 @@
 var currentDate = moment().format("dddd" + ", " + "LL");
-var timeBlocks = $("#timeBlocks");
 
 // This function displays current date in the header
 function displayDate() {
