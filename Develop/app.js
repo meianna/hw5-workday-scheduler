@@ -15,7 +15,16 @@ $("button").on("click", function () {
   localStorage.setItem(id, userData);
 });
 
+var currentHour = moment().hours();
+
 // This loop makes it so that the event descriptions stay on screen when  we refresh
 for (i = 9; i <= 17; i++) {
   $(`#${i}-input`).val(localStorage.getItem(i));
+  if (i < currentHour) {
+    $(`#${i}-row`).addClass("past");
+  } else if (i === currentHour) {
+    $(`#${i}-row`).addClass("present");
+  } else {
+    $(`#${i}-row`).addClass("future");
+  }
 }
