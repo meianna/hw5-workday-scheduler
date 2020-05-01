@@ -4,15 +4,6 @@ body {
   line-height: 1;
 }
 
-textarea {
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
-}
-
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -21,19 +12,9 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-.description {
-  white-space: pre-wrap;
-}
-
 .time-block {
   text-align: center;
   border-radius: 15px;
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;
 }
 
 .hour {
@@ -71,7 +52,6 @@ textarea {
 }
 
 div {
-  /* width: 500px; */
   height: 50px;
   line-height: 1.5;
   border: 1px solid black;
@@ -81,8 +61,10 @@ div {
 
 main {
   padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 input {
-  width: 350px;
+  width: 500px;
 }
