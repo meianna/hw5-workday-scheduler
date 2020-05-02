@@ -1,3 +1,11 @@
+# Workday Scheduler
+
+This dynamic calendar application uses Moment to keep track of the current date and time. The current date is displayed up top.
+
+The app features a daily planner for standard business hours 9am-5pm. The user may enter an event or task for each hour block and save it. The text entered will be saved to local storage.
+
+Past hour blocks are in grey, the current one in red, and future blocks are in green to help the user keep track of where they are in the workday.
+
 # 05 Third-Party APIs: Work Day Scheduler
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
@@ -38,9 +46,10 @@ The following animation demonstrates the application functionality:
 
 You are required to submit the following for review:
 
-* The URL of the deployed application.
+- The URL of the deployed application.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+- The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-- - -
+---
+
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
